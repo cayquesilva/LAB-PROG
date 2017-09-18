@@ -1,7 +1,7 @@
 package minmax;
 
 /**
- * @author David
+ * @author David Félix
  */
 public class MinMax {
 
