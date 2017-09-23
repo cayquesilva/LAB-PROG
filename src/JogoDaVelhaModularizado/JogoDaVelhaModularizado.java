@@ -2,7 +2,7 @@ package JogoDaVelhaModularizado;
 
 /**
  *
- * @author David Félix da S. Filho
+ * Aluno: David Félix da S. Filho
  */
 import java.util.Scanner;
 
