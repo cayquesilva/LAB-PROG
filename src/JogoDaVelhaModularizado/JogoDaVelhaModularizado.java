@@ -3,7 +3,7 @@ package JogoDaVelhaModularizado;
 /**
  *
  * Aluno: David Félix da S. Filho
- * Exercício 2 - Laboratório de Programação - C. Computação Noturno - UEPB
+ * Exercício 3 - Laboratório de Programação - C. Computação Noturno - UEPB
  */
 import java.util.Scanner;
 
