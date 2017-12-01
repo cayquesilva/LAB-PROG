@@ -42,7 +42,7 @@ public class MinhaCDTeca {
                 adicionaCD(listaDeCds.get(i));
             }
         }else{
-            throw new Exception("Informe um CD válido para adicionar.");
+            throw new Exception("Informe uma lista de CD's válida para adicionar.");
         }
         
     }
