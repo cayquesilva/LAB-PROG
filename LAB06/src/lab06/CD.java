@@ -34,7 +34,6 @@ public class CD {
      * Construtor que recebe o artista e o título do CD.
      * @param artista Artista compositor do CD.
      * @param tituloCD Título do CD do artista/banda/etc.
-     * @param M A quantidade de músicas é definida como 10.
      * @throws Exception Se algum parâmetro passado for inválido, será lançado uma exceção.
      */
     public CD(String artista, String tituloCD) throws Exception{

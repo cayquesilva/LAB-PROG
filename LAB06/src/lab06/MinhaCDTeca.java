@@ -23,6 +23,7 @@ public class MinhaCDTeca {
     /**
      * Adicionar um CD á lista.
      * @param cd CD que vai er inserido.
+     * @throws Exception para o caso do usuário informar um CD inválido.
      */
     public void adicionaCD(CD cd) throws Exception{
         if(cd != null){
@@ -34,7 +35,8 @@ public class MinhaCDTeca {
     
     /**
      * Adiciona CD's na coleção
-     * @param listaDeCDs Uma lista de CD's que pertence a coleção.
+     * @param listaDeCds Uma lista de CD's que pertence a coleção.
+     * @throws Exception para o caso do usuário informar uma lista de CD's inválida.
      */
     public void adicionaCDs(List<CD> listaDeCds) throws Exception{
         if(listaDeCds != null){
@@ -63,7 +65,7 @@ public class MinhaCDTeca {
     
     /**
      * Remove múltiplos CD's 
-     * @param listaDeCDs Uma lista de CD's que serão removidos.
+     * @param listaDeCds Uma lista de CD's que serão removidos.
      * @return Se algum CD for removido retorna true senão false.
      */
     public boolean removeCDs(List<CD> listaDeCds){
