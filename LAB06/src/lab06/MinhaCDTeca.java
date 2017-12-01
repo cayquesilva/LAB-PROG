@@ -41,6 +41,8 @@ public class MinhaCDTeca {
             for(int i = 0; i < listaDeCds.size(); i++){
                 adicionaCD(listaDeCds.get(i));
             }
+        }else{
+            throw new Exception("Informe um CD válido para adicionar.");
         }
         
     }
